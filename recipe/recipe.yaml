@@ -1,5 +1,5 @@
 context:
-  version: "0.6.2"
+  version: "0.6.3"
 
 package:
   name: litterbox
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/Gerharddc/Litterbox/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 7a2244c7cbe7197ea89d5a996ea0598ed9fef471a1b07c03e4aae852289dcdd8
+  sha256: 2e05744d7d7f0c259d627363d266c28bc09a7b411dc3b314d422ef91d986f6ab
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
