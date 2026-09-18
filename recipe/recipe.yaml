@@ -10,9 +10,10 @@ source:
   sha256: fdd64fdcdaa340789bce32b56216dd673b294e38c0dff0639abd191ec21b1471
 
 build:
-  number: 0
+  number: 1
   script:
     env:
+      CARGO_PROFILE_RELEASE_LTO: fat
       CARGO_PROFILE_RELEASE_STRIP: symbols
     interpreter: nu
     content:
