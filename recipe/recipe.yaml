@@ -1,5 +1,5 @@
 context:
-  version: "0.6.5"
+  version: "0.6.6"
 
 package:
   name: litterbox
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Gerharddc/Litterbox/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 529ce2c0b9ce1fe617b1b36d343118b095a19cc242f997ab4d9fc924f086cd4b
+  sha256: 192f8cb826f3a9b2cf74be52f2b9022e345e419b339feb1587a341f650abcd61
 
 build:
   number: 0
